@@ -6,7 +6,7 @@ This repository contains **Dockerfile** of [RabbitMQ](http://www.rabbitmq.com/) 
 
 ### Base Docker Image
 
-* [docker-rabbitmq](http://)
+* [docker-rabbitmq](https://github.com/akumor/docker-rabbitmq)
 
 
 ### Installation
