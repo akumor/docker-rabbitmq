@@ -1,0 +1,7 @@
+#!/bin/bash
+
+nohup /create_admin_user.sh &>/create_admin_user.out &
+
+ulimit -n 1024
+chown -R rabbitmq:rabbitmq /data
+exec rabbitmq-server $@
